@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am Sorry</title>
+    <meta name="description" content="A heartfelt apology, crafted with love.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient vignette -->
+    <div class="vignette"></div>
+
+    <!-- Floating particles -->
+    <div id="particles-js"></div>
+
+    <!-- Falling rose petals -->
+    <div class="petals-container" id="petals-container"></div>
+
+    <!-- ══════════════ INPUT SECTION ══════════════ -->
+    <div class="container" id="input-section">
+        <div class="glass-card">
+            <div class="card-icon">💌</div>
+            <h1>I have something to say...</h1>
+            <p>Please enter your name so I can speak to you directly</p>
+            <div class="divider"><span>✦</span></div>
+            <input type="text" id="name-input" placeholder="your name..." autocomplete="off" />
+            <button id="start-btn">Please Listen to Me...</button>
+        </div>
+    </div>
+
+    <!-- ══════════════ MESSAGE SECTION ══════════════ -->
+    <div class="container hidden" id="message-section">
+        <div class="message-container">
+
+            <!-- 1 -->
+            <p class="emotional-text hidden" id="msg-1">
+                Hii <span id="display-name"></span>...
+            </p>
+
+            <!-- 2 -->
+            <p class="emotional-text hidden" id="msg-2">
+                I've been sitting with this for so long.
+            </p>
+
+            <!-- 3 -->
+            <p class="emotional-text hidden" id="msg-3">
+                I know that what I did hurt you.<br>
+                <span class="sub-text">And I hate myself for that.</span>
+            </p>
+
+            <!-- 4 -->
+            <p class="emotional-text hidden" id="msg-4">
+                You deserved so much better from me.
+            </p>
+
+            <!-- 5 -->
+            <p class="emotional-text hidden" id="msg-5">
+                I was selfish.<br>
+                <span class="sub-text">I was careless with your feelings.</span><br>
+                <span class="sub-text">And that is on me. Entirely.</span>
+            </p>
+
+            <!-- 6 -->
+            <p class="emotional-text hidden" id="msg-6">
+                There is no excuse for the pain I put you through.
+            </p>
+
+            <!-- 7 -->
+            <p class="emotional-text hidden" id="msg-7">
+                I think about the moments I let you down...<br>
+                <span class="sub-text">every single day.</span>
+            </p>
+
+            <!-- 8 -->
+            <p class="emotional-text hidden" id="msg-8">
+                I wish I could take back every word that cut you,<br>
+                every silence that made you feel alone.
+            </p>
+
+            <!-- 9 -->
+            <p class="emotional-text hidden" id="msg-9">
+                You trusted me,<br>
+                <span class="sub-text">and I failed you.</span>
+            </p>
+
+            <!-- 10 - BIG SORRY -->
+            <h1 class="emotional-text highlight hidden" id="msg-10">
+                I am so deeply,<br>sincerely sorry.
+            </h1>
+
+            <!-- 11 -->
+            <p class="emotional-text hidden" id="msg-11">
+                Not because I have to say it —<br>
+                <span class="sub-text">but because I mean it with everything I have.</span>
+            </p>
+
+            <!-- 12 -->
+            <p class="emotional-text hidden" id="msg-12">
+                You matter to me more than I ever showed you.
+            </p>
+
+            <!-- 13 -->
+            <p class="emotional-text hidden" id="msg-13">
+                I don't expect forgiveness right away.<br>
+                <span class="sub-text">I just need you to know... I am truly sorry.</span>
+            </p>
+
+            <!-- 14 - Final heart -->
+            <div class="heart-wrap hidden" id="msg-14">
+                <div class="heart-emoji">🤍</div>
+                <p class="heart-caption">— always</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
